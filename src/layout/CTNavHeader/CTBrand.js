@@ -8,7 +8,7 @@ import { textBrand, darkTextBrand, logoOutline } from 'assets/images';
 
 
 export function CTBrand(props) {
-  let { 
+  let {
     size = 'normal',
     darkMode,
     small,
@@ -19,10 +19,10 @@ export function CTBrand(props) {
 
   const brandClasses = classNames('ct-header-brand', size, { small, medium, logo })
 
-  const imgSrc = logo 
-                ? logoOutline 
-                : darkMode 
-                ? darkTextBrand 
+  const imgSrc = logo
+                ? logoOutline
+                : darkMode
+                ? darkTextBrand
                 : textBrand;
 
   const linkProps = {

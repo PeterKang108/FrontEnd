@@ -3,7 +3,7 @@ import { connect } from 'dva'
 import './index.scss';
 import {
   PlayButton,
-  SettingButton,
+  // SettingButton,
   FullscreenButton,
   SwitchScreenButton,
   ClosedCaptionButton,
@@ -46,7 +46,7 @@ function ControlBar(props) {
           </div>
           <div className="right ct-d-r-center-v">
             <ClosedCaptionButton />
-            <SettingButton />
+            {/* <SettingButton /> */}
             <FullscreenButton />
           </div>
         </div>

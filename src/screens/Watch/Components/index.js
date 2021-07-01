@@ -6,4 +6,6 @@ export { ClassTranscribePlayer } from './CTPlayer';
 export { ControlBar } from './ControlBar';
 export { Transcriptions } from './Transcriptions';
 export { Search } from './Search';
+export { LivePlayerNavBar } from './LivePlayerNavBar';
+export { LivePlayerFooter } from './LivePlayerFooter';
 export * from './Overlays';

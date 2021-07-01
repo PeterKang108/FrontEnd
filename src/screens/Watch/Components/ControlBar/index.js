@@ -22,12 +22,12 @@ import VolumeControl from './VolumeControl';
 import TimeDisplay from './TimeDisplay';
 import ProgressBar from './ProgressBar';
 
-export function ControlBarWithRedux(props) {  
+export function ControlBarWithRedux(props) {
   const { dispatch, media = {}, bulkEditing = false } = props;
   const { isTwoScreen, transcriptions } = media;
   const hasTrans = Array.isArray(transcriptions) && transcriptions.length > 0;
   const showScreenModes = isTwoScreen && !bulkEditing && !isMobile;
-  
+
   return (
     <div id="watch-ctrl-bar" className="watch-ctrl-bar-container">
       <ProgressBar />
@@ -55,7 +55,7 @@ export function ControlBarWithRedux(props) {
 
         {showScreenModes && <ScreenModeSettingButton isTwoScreen={isTwoScreen} />}
 
-        <SettingButton />
+         <SettingButton />
         <FullscreenButton />
       </div>
     </div>
