@@ -55,7 +55,7 @@ export function ControlBarWithRedux(props) {
 
         {showScreenModes && <ScreenModeSettingButton isTwoScreen={isTwoScreen} />}
 
-         <SettingButton />
+        <SettingButton />
         <FullscreenButton />
       </div>
     </div>
